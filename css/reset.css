@@ -4,6 +4,16 @@
 	box-sizing: border-box;
 }
 
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--clr-gray-700);
+	font-weight: var(--fw-regular);
+}
+
 /* Document
    ========================================================================== */
 
