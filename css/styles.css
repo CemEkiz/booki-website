@@ -3,8 +3,40 @@
 /* ----------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
+:root {
+	/* ---------------- COLORS ---------------- */
+	--clr-accent-500: hsl(216, 100%, 49%);
+	--clr-accent-300: hsl(216, 100%, 55%);
+
+	--clr-muted: hsl(216, 100%, 94%);
+
+	--clr-gray-100: hsl(0, 0%, 95%);
+	--clr-gray-300: hsl(0, 0%, 70%);
+	--clr-gray-700: hsl(0, 0%, 30%);
+	--clr-gray-900: hsl(0, 0%, 10%);
+
+	/* ---------------- FONT-SIZE ---------------- */
+	--fs-regular: 16px;
+	--fs-medium: 18px;
+	--fs-large: 20px;
+	--fs-title: 24px;
+
+	/* ---------------- FONT WEIGHT ---------------- */
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-bold: 700;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
+	font-size: var(--fs-regular);
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 /* ---------------------------------------- */
@@ -33,14 +65,81 @@ body {
 }
 
 .nav__items li:hover {
-	border-top: 2px solid var(--clr-accent-500);
+	border-top: 2px solid var(--clr-accent);
 	color: red;
 }
 
 .nav__items li a:hover {
-	color: var(--clr-accent-500);
+	color: var(--clr-accent);
 }
 
 .nav__items li:hover {
 	opacity: 1;
+}
+
+/* --------------------------------------------- */
+/* ---------------- SEARCH FORM ---------------- */
+/* --------------------------------------------- */
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.form__heading {
+	font-size: var(--fs-title);
+	font-weight: var(--fw-bold);
+}
+
+.search-form {
+	display: flex;
+}
+
+.search-form__geoloc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 18px;
+	border-radius: 12px 0 0 12px;
+	background-color: var(--clr-gray-100);
+}
+
+.search-form__input {
+	padding: 12px 18px;
+	border: 1px solid var(--clr-gray-100);
+	border-right: transparent;
+	font-weight: var(--fw-bold);
+}
+
+.search-form__input[placeholder] {
+	color: var(--clr-gray-900);
+}
+
+.search-form__submit {
+	padding: 12px 18px;
+	border: none;
+	border-radius: 0 18px 18px 0;
+	background-color: var(--clr-accent-500);
+	color: white;
+	font-weight: var(--fw-bold);
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+.search-form__submit:hover {
+	background-color: var(--clr-accent-300);
+}
+
+::placeholder {
+	color: var(--clr-gray-300);
+}
+
+/* Hide the placeholder on focus */
+input:focus::placeholder {
+	color: transparent;
+}
+
+input:focus-visible {
+	outline: transparent;
 }
