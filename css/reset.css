@@ -14,7 +14,8 @@
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ol,
-ul {
+ul,
+summary {
 	list-style: none;
 }
 
@@ -27,11 +28,6 @@ a:visited {
 /* Set core root defaults */
 html:focus-within {
 	scroll-behavior: smooth;
-}
-
-html,
-body {
-	height: 100%;
 }
 
 /* Set core body defaults */
@@ -49,6 +45,6 @@ a:not([class]) {
 img,
 picture,
 svg {
-	max-width: 100%;
+	width: 100%;
 	display: block;
 }
