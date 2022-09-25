@@ -26,7 +26,8 @@ a:visited {
 }
 
 /* Set core root defaults */
-html:focus-within {
+html:focus-within,
+html {
 	scroll-behavior: smooth;
 }
 
