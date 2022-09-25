@@ -321,11 +321,11 @@ input:focus-visible {
 	margin: 0 auto;
 }
 
-.hosting-list__card h3 {
+.hosting-list__card p:first-child {
 	font-weight: var(--fw-bold);
 }
 
-.hosting-list__card p {
+.hosting-list__card p:not(:first-child) {
 	font-size: var(--fs-small);
 }
 
