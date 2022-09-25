@@ -486,3 +486,35 @@ input:focus-visible {
 	grid-column: 4 / 5;
 	grid-row: 3 / -1;
 }
+
+/* ------------------------------------------ */
+/* ---------------- ACTIVITY ---------------- */
+/* ------------------------------------------ */
+
+.footer {
+	width: 100%;
+	background-color: var(--clr-gray-100);
+}
+
+.footer-nav {
+	display: flex;
+	gap: 80px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.footer-nav__menu {
+	flex: 1;
+}
+
+.footer-nav__menu__heading {
+	margin-bottom: var(--mb-xs);
+	font-weight: var(--fw-bold);
+	font-size: var(--fs-medium);
+}
+
+.footer-nav__menu__links {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
