@@ -32,9 +32,10 @@
 	--fw-bold: 700;
 
 	/* ---------------- MARGINS ---------------- */
-	--mb-small: 16px;
-	--mb-medium: 32px;
-	--mb-large: 64px;
+	--mb-xs: 16px;
+	--mb-s: 24px;
+	--mb-m: 32px;
+	--mb-l: 64px;
 }
 
 body {
@@ -100,6 +101,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
+	margin-bottom: var(--mb-s);
 }
 
 .form__heading {
@@ -165,12 +167,11 @@ input:focus-visible {
 /* ----------------------------------------- */
 
 .filter {
-	margin-top: 24px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 10px;
-	margin-bottom: var(--mb-medium);
+	margin-bottom: var(--mb-m);
 }
 
 .filter__heading {
@@ -225,7 +226,7 @@ input:focus-visible {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	margin-bottom: var(--mb-medium);
+	margin-bottom: var(--mb-m);
 }
 
 .hosting-info__icon {
@@ -256,7 +257,7 @@ input:focus-visible {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	column-gap: 32px;
-	margin-bottom: var(--mb-large);
+	margin-bottom: var(--mb-l);
 }
 
 /* --------- Hosting List --------- */
@@ -405,13 +406,13 @@ input:focus-visible {
 /* ------------------------------------------ */
 
 .activity {
-	margin-bottom: var(--mb-large);
+	margin-bottom: var(--mb-l);
 }
 
 .activity__heading {
 	font-size: var(--fs-large);
 	font-weight: var(--fw-bold);
-	margin-bottom: var(--mb-small);
+	margin-bottom: var(--mb-xs);
 }
 
 .activity-grid {
