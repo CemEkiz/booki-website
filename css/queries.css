@@ -62,13 +62,23 @@
 	.search-form__input {
 		flex: 1;
 		width: 100%;
+		/* background-color: red; */
+		border-radius: 0 18px 18px 0;
 	}
 
 	.search-form__submit {
 		display: none;
 	}
 
+	.search-form {
+		position: relative;
+	}
+
 	.search-form__submit--icon {
+		position: absolute;
+		right: 0;
+		height: 100%;
+		/* transform: translateX(-40%); */
 		display: block;
 		padding: 12px 18px;
 		border: none;
