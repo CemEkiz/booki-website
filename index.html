@@ -12,12 +12,13 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/queries.css" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<title>Booki - Réservez un hébergement et des activités !</title>
 	</head>
 	<body>
 		<!-- HEADER -->
-		<header class="main-header | container">
+		<header class="main-header">
 			<a href="index.html" class="logo">
 				<img src="assets/logo/logo-booki.svg" alt="" />
 			</a>
@@ -48,6 +49,9 @@
 						class="search-form__input"
 					/>
 					<input type="submit" value="Rechercher" class="search-form__submit" />
+					<button type="submit" value="Search" class="search-form__submit--icon">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
 				</div>
 			</form>
 
@@ -86,7 +90,7 @@
 			</div>
 
 			<!-- HOSTING -->
-			<section class="hosting | container" id="hosting">
+			<section class="hosting" id="hosting">
 				<!-- Hosting Classic -->
 				<div class="hosting-list">
 					<h2 class="hosting-list__heading">Hébergements à Marseille</h2>
