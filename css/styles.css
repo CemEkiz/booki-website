@@ -318,10 +318,11 @@ input:focus-visible {
 }
 
 .hosting-list__card__description {
-	padding: 0 0 6px 10px;
+	padding: 6px 10px;
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
+	height: 100%;
 }
 
 .hosting-list__card__image {
@@ -347,6 +348,7 @@ input:focus-visible {
 }
 
 .hosting-list__card__stars {
+	margin-top: auto;
 	font-size: 12px;
 }
 
