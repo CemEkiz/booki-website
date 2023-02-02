@@ -1,26 +1,22 @@
 # Booki
 
+Booki offers booking services for hostings and activities in France.
+
+## 🔗 [Link to the website](https://booki-cem.netlify.app)
+
 ![Showcase - Booki](/showcase.png?raw=true 'Showcase - Booki')
 
-## <center>🔗 [Link to the website](https://booki-cem.netlify.app)</center>
-
-## <center> Description </center>
-
-<center>Booki offers booking services for hostings and activities in France. </center>
-
-# Process
-
-## What tools I used for this project ?
+## Toolbox
 
 -   HTML
 -   CSS
 -   Flexbox & Grid
 
-## What was the goal of this project ?
+## Goal of the project
 
 The goal of this project was simply to code a UI provided by a designer, I made this project for my formation in Openclassrooms. I code this website without any tutorial or help. <br>
 
-Requierements to validate this project :
+## Requierements to valide the project
 
 -   Using semantic tags
 -   Cards and links clickable
