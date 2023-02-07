@@ -1,6 +1,6 @@
 <div align="center">
   <p align=center>
-    <h1>Nexter</h1>
+    <h1>Booki</h1>
     <br />
     <p>A modern and responsive website for booking hosting and activities in France</p>
     <h3><a href="https://booki-cem.netlify.app/">🔗 Link to the Website</a></h2>
