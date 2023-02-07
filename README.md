@@ -1,17 +1,24 @@
-# Booki
+<div align="center">
+  <p align=center>
+    <h1>Nexter</h1>
+    <br />
+    <p>A modern and responsive website for booking hosting and activities in France</p>
+    <h3><a href="https://booki-cem.netlify.app/">🔗 Link to the Website</a></h2>
+    <img src="showcase.png" />
+  </p>
+</div>
 
-Booki offers booking services for hostings and activities in France.
+## Built With
 
-## 🔗 [Link to the Website](https://booki-cem.netlify.app)
-
-![Showcase - Booki](/showcase.png?raw=true 'Showcase - Booki')
-
-## Toolbox
-
--   HTML & CSS
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Features
 
--   Layout made with CSS Grid & Flexbox
--   Simple animations on hover
--   Responsive website
+- Layout built with Flexbox & Grid
+- Smooth animation on hover & scroll
+- Responsive website and modern design
+
+## Context of the project
+
+I built this website to validate my training at Openclassrooms
